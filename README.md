@@ -12,11 +12,11 @@ as molecular (not global) quantities.
 For more details about how the data were collected, please
 look at our original publications
 
-[Berrens, M. L., Calegari Andrade, M. F., Fourkas, J. T., Pham, T. A., & Donadio, D. Molecular Fingerprints of Ice Surfaces in Sum Frequency Generation Spectra: A First-Principles Machine Learning Study. JACS Au, 2025, 5(3), 1173–1183](https://pubs.acs.org/doi/10.1021/jacsau.4c00957)
-[Sommers, G. M., Calegari Andrade, M. F., Zhang, L., Wang, H., & Car, R. Raman spectrum and polarizability of liquid water from deep neural networks. Physical Chemistry Chemical Physics, 2020, 22, 10592](https://pubs.rsc.org/en/content/articlelanding/2020/cp/d0cp01893g)
+1. Berrens, M. L., Calegari Andrade, M. F., Fourkas, J. T., Pham, T. A., & Donadio, D. Molecular Fingerprints of Ice Surfaces in Sum Frequency Generation Spectra: A First-Principles Machine Learning Study. [JACS Au, 2025, 5(3), 1173–1183](https://pubs.acs.org/doi/10.1021/jacsau.4c00957)
+2. Sommers, G. M., Calegari Andrade, M. F., Zhang, L., Wang, H., & Car, R. Raman spectrum and polarizability of liquid water from deep neural networks. [Physical Chemistry Chemical Physics, 2020, 22, 10592](https://pubs.rsc.org/en/content/articlelanding/2020/cp/d0cp01893g)
 
 ## Units
-Dipole: e * Angstrom
-Polarizability: Angstrom^3
-Coordinates: Angstrom
-Cell dimensions: Angstrom
+Dipole: e * Angstrom  
+Polarizability: Angstrom^3  
+Coordinates: Angstrom  
+Cell dimensions: Angstrom  
