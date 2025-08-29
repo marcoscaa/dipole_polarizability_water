@@ -1,0 +1,71 @@
+{
+    "_comment": " model parameters",
+    "model":{
+	"type_map":		["O", "H"],
+	"descriptor" :{
+	    "type":		"se_e2_a",
+	    "sel":		[64, 128],
+	    "rcut_smth":	5.00,
+	    "rcut":		6.00,
+	    "neuron":		[25, 50, 100],
+	    "resnet_dt":	false,
+	    "axis_neuron":	6,
+	    "seed":		879861,
+	    "_comment":		" that's all"
+	},
+	"fitting_net": {
+	    "type":		"polar",
+	    "dipole_type":	[0],
+	    "neuron":		[20, 20, 20],
+	    "resnet_dt":	true,
+	    "seed":		9991,
+	    "_comment":		" that's all"
+	},
+	"_comment":	" that's all"
+    },
+    
+    "learning_rate" :{
+	"type":		"exp",
+	"start_lr":	0.005,
+	"decay_steps":	5000,
+	"decay_rate":	0.95,
+	"_comment":	"that's all"
+    },
+
+    "loss" :{
+	"type":			"tensor",
+	"pref":			1.0,
+	"pref_atomic":		1.0,
+	"_comment": 		"that's all"
+    },
+
+    "_comment": " traing controls",
+    "training": {
+        "systems":	["../../../raw_files/water",
+    			 "../../../raw_files/water_air",
+    			 "../../../raw_files/ih",
+    			 "../../../raw_files/ih_air",
+    			 "../../../raw_files/ic",
+    			 "../../../raw_files/ic_air"],
+	"set_prefix":	"set",    
+	"stop_batch":	1000000,
+	"batch_size":	1,
+
+	"seed":		56871,
+
+	"_comment": " display and restart",
+	"_comment": " frequencies counted in batch",
+	"disp_file":	"lcurve.out",
+	"disp_freq":	1000,
+	"numb_test":	20,
+	"save_freq":	1000,
+	"disp_training":true,
+	"time_training":true,
+	"profiling":	false,
+	"profiling_file":"timeline.json",
+	"_comment":	"that's all"
+    },
+
+    "_comment":		"that's all"
+}
+
